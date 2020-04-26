@@ -9,7 +9,10 @@ zawierać jakiś organizm (roślinę lub zwierzę).
 
 ### Rośliny
 
+<<<<<<< Updated upstream
 Rośliny będą ogranizmami bardziej pasywnymi, tzn. będą reagowały na zmiany środowiska w pewnym, tudzież ograniczonym,
+=======
+>>>>>>> Stashed changes
 stopniu, np. jeżeli środowisko będzie miało odpowiednie nasłonecznienie i wilgotność, będą rosnąć; w przeciwnym wypadku,
 będą umierać. Będą miały również bardzo ograniczoną możliwość wpływania na środowisko czy inne organizmy.
 
@@ -24,6 +27,7 @@ Każdy gatunek będzie miał określone statystyki: wytrzymałość, siła i szy
 mogą się delikatnie różnić. Jeśli wytrzymałość spadnie do 0 to osobnik umiera. Wytrzymałość można stracić podczas
 konfrontacji z innymi zwierzętami oraz można ją odzyskać odpoczywając i jedząc. Siła odpowiada za to jak dobrze zwierze
 radzi sobie w walce, a szybkość jak sprawnie przemieszcza się po świecie.
+<<<<<<< Updated upstream
 
 Będą różne typy zwierząt różniące się pod wieloma względami: roślinożercy i mięsożercy, samiec i samica, młode i
 dorosłe, jak dużo potomstwa będą produkować, jakich strategii będą używać aby przeżyć, etc.
@@ -47,10 +51,18 @@ zabić swój cel. Po udanym polowaniu mięsożerca może zjeść swoją zdobycz,
 Z pozoru takie same stany, np. `POLUJ` mogą również różnić się pomiędzy gatunkami, np. gepard będzie polował samotnie,
 ale wilki będą polować w grupie, co będzie wymagało koordynacji i kooperacji pomiędzy przedstawicielami gatunku zarówno
 podczas polowania, jak i po (dzielenie się pożywieniem).
+=======
 
-Ze względu na rozdzielczość symulacji (jedna komórka reprezentująca powierzchnię 10-100m^2) nie będą symulowane
-zwierzęta małe jak np. owady lub będą one symulowane w sposób pasywny (np. jak rośliny lub jako właściwość komórki).
+Będą różne typy zwierząt różniące się pod wieloma względami: roślinożercy i mięsożercy, samiec i samica, młode i
+dorosłe, jak dużo potomstwa będą produkować, jakich strategii będą używać aby przeżyć, etc.
+>>>>>>> Stashed changes
 
+#### Gatunki
+
+Organizmy zwierzęce będą dzielić się na **gatunki**. Rozmnażanie będzie się odbywać tylko w obrębie gatunku (brak
+crossbreedingu). Statystyki potomstwa będą generowane na podstawie statystyk rodziców.
+
+<<<<<<< Updated upstream
 ### Odrzucone pomysły
 
 System gatunków z którym wyszliśmy na początek, zakładał istnienie **genów** jako obiektu definiującego statystyki
@@ -181,3 +193,15 @@ System populacji działa w grupie z innymi elementami i mechanikami gry, takimi 
 
 Niektóre z tych elementów są "wejściem" (interakcje gracza) a inne "wyjściem" (otrzymane zasoby). Aby zapewnić możliwość
 interakcji z symulacją, wykonany zostanie prosty, tekstowy interfejs.
+=======
+Oprócz tego, gatunki mogą mieć różne wzorce zachowań. Przykładowo: roślinożerca po znalezieniu pożywienia wchodzi np. w
+stan `JEDZ`, który polega po prostu przemieszczeniu się w jego kierunku pożywienia i spożyciu go; mięsożerca natomiast
+po wypatrzeniu pożywienia (innego zwierzęcia) przejdzie w stan `POLUJ`, w którym zwierzę będzie starało się najpierw
+zabić swój cel. Po udanym polowaniu mięsożerca może zjeść swoją zdobycz, w wypadku porażki zwierzę poszuka innego celu.
+Z pozoru takie same stany, np. `POLUJ` mogą również różnić się pomiędzy gatunkami, np. gepard będzie polował samotnie,
+ale wilki będą polować w grupie, co będzie wymagało koordynacji i kooperacji pomiędzy przedstawicielami gatunku zarówno
+podczas polowania, jak i po (dzielenie się pożywieniem).
+
+Ze względu na rozdzielczość symulacji (jedna komórka reprezentująca powierzchnię 10-100m^2) nie będą symulowane
+zwierzęta małe jak np. owady lub będą one symulowane w sposób pasywny (np. jak rośliny lub jako właściwość komórki).
+>>>>>>> Stashed changes
