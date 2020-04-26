@@ -13,6 +13,9 @@ Rośliny będą ogranizmami bardziej pasywnymi, tzn. będą reagowały na zmiany
 stopniu, np. jeżeli środowisko będzie miało odpowiednie nasłonecznienie i wilgotność, będą rosnąć; w przeciwnym wypadku,
 będą umierać. Będą miały również bardzo ograniczoną możliwość wpływania na środowisko czy inne organizmy.
 
+Rośliny będą właściwością komórki. Komórka będzie miała poziom roślinności. Roślinożercy przebywający na tej komórce 
+będą żywić się zmniejszając poziom roślinności w komórce.
+
 ### Zwierzęta
 
 Elementami wyróżniającymi organizmy zwierzęce będzie przede wszystkim możliwość zmiany swojej pozycji oraz większy
@@ -46,4 +49,4 @@ ale wilki będą polować w grupie, co będzie wymagało koordynacji i kooperacj
 podczas polowania, jak i po (dzielenie się pożywieniem).
 
 Ze względu na rozdzielczość symulacji (jedna komórka reprezentująca powierzchnię 10-100m^2) nie będą symulowane
-zwierzęta małe jak np. owady lub będą one symulowane w sposób pasywny (np. jak rośliny lub jako właściwość komórki).
+zwierzęta małe jak np. owady lub będą one symulowane w sposób pasywny (np. jak rośliny).
