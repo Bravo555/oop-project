@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="277px" preserveAspectRatio="none" style="width:238px;height:277px;" version="1.1" viewBox="0 0 238 277" width="238px" zoomAndPan="magnify"><defs><filter height="300%" id="fu33b5kiu4kid" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[1325c757bf5b1e182acfce8f4a0a4ccf]
+class pwr.sim.animal.ai.AiBehaviourCrocodile--><a href="AiBehaviourCrocodile.html" target="_top" title="AiBehaviourCrocodile.html" xlink:actuate="onRequest" xlink:href="AiBehaviourCrocodile.html" xlink:show="new" xlink:title="AiBehaviourCrocodile.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#fu33b5kiu4kid)" height="117.9609" id="pwr.sim.animal.ai.AiBehaviourCrocodile" style="stroke: #A80036; stroke-width: 1.5;" width="221" x="6" y="127"/><ellipse cx="40.35" cy="145.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M43.3188,151.6094 Q42.7406,151.9063 42.1,152.0469 Q41.4594,152.2031 40.7563,152.2031 Q38.2563,152.2031 36.9281,150.5625 Q35.6156,148.9063 35.6156,145.7813 Q35.6156,142.6563 36.9281,141 Q38.2563,139.3438 40.7563,139.3438 Q41.4594,139.3438 42.1,139.5 Q42.7563,139.6563 43.3188,139.9531 L43.3188,142.6719 Q42.6938,142.0938 42.1,141.8281 Q41.5063,141.5469 40.8813,141.5469 Q39.5375,141.5469 38.85,142.625 Q38.1625,143.6875 38.1625,145.7813 Q38.1625,147.875 38.85,148.9531 Q39.5375,150.0156 40.8813,150.0156 Q41.5063,150.0156 42.1,149.75 Q42.6938,149.4688 43.3188,148.8906 L43.3188,151.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="58.65" y="144.9951">AiBehaviourCrocodile</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="84" x="89.65" y="157.5791">pwr.sim.animal.ai</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="226" y1="164.9375" y2="164.9375"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="172.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="129" x="26" y="179.1479">stateHunt: AiStateHunt</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="185.7422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="141" x="26" y="191.9526">stateSleep: AiStateSleep</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="198.5469"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="195" x="26" y="204.7573">stateEatCorpse: AiStateEatCorpse</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="211.3516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="177" x="26" y="217.562">stateCopulate: AiStateCopulate</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="226" y1="224.1563" y2="224.1563"/><ellipse cx="17" cy="235.1563" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="26" y="238.3667">update(): void</text></a><!--MD5=[42286ad51aa720358575a37c59436338]
+class pwr.sim.animal.ai.IAiBehaviour--><a href="IAiBehaviour.html" target="_top" title="IAiBehaviour.html" xlink:actuate="onRequest" xlink:href="IAiBehaviour.html" xlink:show="new" xlink:title="IAiBehaviour.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#fu33b5kiu4kid)" height="58.7422" id="pwr.sim.animal.ai.IAiBehaviour" style="stroke: #A80036; stroke-width: 1.5;" width="120" x="56.5" y="8"/><ellipse cx="71.5" cy="26.9688" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M67.4219,22.7344 L67.4219,20.5781 L74.8125,20.5781 L74.8125,22.7344 L72.3438,22.7344 L72.3438,30.8125 L74.8125,30.8125 L74.8125,32.9688 L67.4219,32.9688 L67.4219,30.8125 L69.8906,30.8125 L69.8906,22.7344 L67.4219,22.7344 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="87" x="86" y="25.9951">IAiBehaviour</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="88" x="85.5" y="38.5791">pwr.sim.animal.ai</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="57.5" x2="175.5" y1="45.9375" y2="45.9375"/><ellipse cx="67.5" cy="56.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="76.5" y="60.1479">update(): void</text></a><!--MD5=[920e46d7c33b8758455582de5b837a05]
+reverse link pwr.sim.animal.ai.IAiBehaviour to pwr.sim.animal.ai.AiBehaviourCrocodile--><path d="M116.5,87.2587 C116.5,99.9681 116.5,113.7556 116.5,126.8838 " fill="none" id="pwr.sim.animal.ai.IAiBehaviour&lt;-pwr.sim.animal.ai.AiBehaviourCrocodile" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="109.5001,87.1943,116.5,67.1943,123.5001,87.1942,109.5001,87.1943" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="29.5" y="264.2822">UMLDoclet 2.0.8, PlantUML 1.2020.01</text><!--MD5=[6eb514a5e17234ac55c335a32bfb9086]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>AiBehaviourCrocodile\n<size:10>pwr.sim.animal.ai" as pwr.sim.animal.ai.AiBehaviourCrocodile [[AiBehaviourCrocodile.html]] {
+        -stateHunt: AiStateHunt
+        -stateSleep: AiStateSleep
+        -stateEatCorpse: AiStateEatCorpse
+        -stateCopulate: AiStateCopulate
+        +update(): void
+    }
+
+    interface "<size:14>IAiBehaviour\n<size:10>pwr.sim.animal.ai" as pwr.sim.animal.ai.IAiBehaviour [[IAiBehaviour.html]] {
+        {abstract} +update(): void
+    }
+
+    pwr.sim.animal.ai.IAiBehaviour <|.. pwr.sim.animal.ai.AiBehaviourCrocodile
+
+    center footer UMLDoclet 2.0.8, PlantUML 1.2020.01
+@enduml
+
+PlantUML version 1.2020.01(Sun Feb 16 18:40:32 CET 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-2ubuntu219.10
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

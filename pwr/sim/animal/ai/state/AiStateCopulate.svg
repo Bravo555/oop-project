@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="218px" preserveAspectRatio="none" style="width:198px;height:218px;" version="1.1" viewBox="0 0 198 218" width="198px" zoomAndPan="magnify"><defs><filter height="300%" id="f14eh5cckpsaer" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[35291f84c5102aa19c3fb4f3ba4efe54]
+class pwr.sim.animal.ai.state.AiStateCopulate--><a href="AiStateCopulate.html" target="_top" title="AiStateCopulate.html" xlink:actuate="onRequest" xlink:href="AiStateCopulate.html" xlink:show="new" xlink:title="AiStateCopulate.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f14eh5cckpsaer)" height="58.7422" id="pwr.sim.animal.ai.state.AiStateCopulate" style="stroke: #A80036; stroke-width: 1.5;" width="144" x="15" y="127"/><ellipse cx="30" cy="145.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M32.9688,151.6094 Q32.3906,151.9063 31.75,152.0469 Q31.1094,152.2031 30.4063,152.2031 Q27.9063,152.2031 26.5781,150.5625 Q25.2656,148.9063 25.2656,145.7813 Q25.2656,142.6563 26.5781,141 Q27.9063,139.3438 30.4063,139.3438 Q31.1094,139.3438 31.75,139.5 Q32.4063,139.6563 32.9688,139.9531 L32.9688,142.6719 Q32.3438,142.0938 31.75,141.8281 Q31.1563,141.5469 30.5313,141.5469 Q29.1875,141.5469 28.5,142.625 Q27.8125,143.6875 27.8125,145.7813 Q27.8125,147.875 28.5,148.9531 Q29.1875,150.0156 30.5313,150.0156 Q31.1563,150.0156 31.75,149.75 Q32.3438,149.4688 32.9688,148.8906 L32.9688,151.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="45" y="144.9951">AiStateCopulate</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="112" x="44" y="157.5791">pwr.sim.animal.ai.state</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="16" x2="158" y1="164.9375" y2="164.9375"/><ellipse cx="26" cy="175.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="35" y="179.1479">update(): void</text></a><!--MD5=[af772f8550f9215bd32b0d137f557a72]
+class pwr.sim.animal.ai.state.IAiState--><a href="IAiState.html" target="_top" title="IAiState.html" xlink:actuate="onRequest" xlink:href="IAiState.html" xlink:show="new" xlink:title="IAiState.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f14eh5cckpsaer)" height="58.7422" id="pwr.sim.animal.ai.state.IAiState" style="stroke: #A80036; stroke-width: 1.5;" width="148" x="13" y="8"/><ellipse cx="28" cy="26.9688" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M23.9219,22.7344 L23.9219,20.5781 L31.3125,20.5781 L31.3125,22.7344 L28.8438,22.7344 L28.8438,30.8125 L31.3125,30.8125 L31.3125,32.9688 L23.9219,32.9688 L23.9219,30.8125 L26.3906,30.8125 L26.3906,22.7344 L23.9219,22.7344 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="53" x="73.5" y="25.9951">IAiState</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="116" x="42" y="38.5791">pwr.sim.animal.ai.state</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="14" x2="160" y1="45.9375" y2="45.9375"/><ellipse cx="24" cy="56.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="33" y="60.1479">update(): void</text></a><!--MD5=[733dfd892e0ff27a6477abb609519e98]
+reverse link pwr.sim.animal.ai.state.IAiState to pwr.sim.animal.ai.state.AiStateCopulate--><path d="M87,87.3288 C87,100.7348 87,114.8139 87,126.7447 " fill="none" id="pwr.sim.animal.ai.state.IAiState&lt;-pwr.sim.animal.ai.state.AiStateCopulate" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="80.0001,87.2218,87,67.2218,94.0001,87.2217,80.0001,87.2218" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="0" y="205.2822">UMLDoclet 2.0.8, PlantUML 1.2020.01</text><!--MD5=[c164c0f92f623be8bde02845ca1a2edd]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>AiStateCopulate\n<size:10>pwr.sim.animal.ai.state" as pwr.sim.animal.ai.state.AiStateCopulate [[AiStateCopulate.html]] {
+        +update(): void
+    }
+
+    interface "<size:14>IAiState\n<size:10>pwr.sim.animal.ai.state" as pwr.sim.animal.ai.state.IAiState [[IAiState.html]] {
+        {abstract} +update(): void
+    }
+
+    pwr.sim.animal.ai.state.IAiState <|.. pwr.sim.animal.ai.state.AiStateCopulate
+
+    center footer UMLDoclet 2.0.8, PlantUML 1.2020.01
+@enduml
+
+PlantUML version 1.2020.01(Sun Feb 16 18:40:32 CET 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-2ubuntu219.10
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>
