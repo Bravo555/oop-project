@@ -21,7 +21,7 @@ public class World {
     }
 
     public void loadMap() throws IOException {
-        File file = new File("C:\\Users\\user\\Documents\\GitHub\\oop-project\\assets\\map50x50.txt");
+        File file = new File("assets\\map50x50.txt");
 //        String absolutePath = file.getAbsolutePath();
 //        System.out.println(absolutePath);
 //        boolean exists = file.exists();
@@ -35,7 +35,19 @@ public class World {
             int temp = 0;
             for (int y = 0; y < this.height; y++) {
                 for (int x = 0; x < this.width; x++) {
-                    map[y][x] = buff[temp++];
+                    if (buff[temp]!='\n' && buff[temp]!='\r') {
+                        map[y][x] = buff[temp++];
+                    } else {
+                        temp++;
+                        x--;
+                    }
+//                    if(map[y][x] == 'W'){
+//                        this.tiles[y * width + x] = new WaterTile();
+//                    } else if (map[y][x] == 'D'){
+//                        this.tiles[y * width + x] = new DesertTile();
+//                    } else if (map[y][x] == 'F'){
+//                        this.tiles[y * width + x] = new ForestTile();
+//                    }
                 }
             }
         } catch(FileNotFoundException e){
