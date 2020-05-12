@@ -2,8 +2,10 @@ package pwr.sim;
 
 import pwr.sim.animal.*;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class World {
     public World(int width, int height) {
@@ -16,6 +18,35 @@ public class World {
             }
         }
         this.animals = new ArrayList<>();
+    }
+
+    public void loadMap() throws IOException {
+        File file = new File("C:\\Users\\user\\Documents\\GitHub\\oop-project\\assets\\map50x50.txt");
+//        String absolutePath = file.getAbsolutePath();
+//        System.out.println(absolutePath);
+//        boolean exists = file.exists();
+//        System.out.println("Czy istnieje: " + exists);
+        char[][] map = new char[this.height][this.width];
+        try {
+//            Scanner read = new Scanner(new FileInputStream(file));
+            FileReader fr = new FileReader(file);
+            char[] buff = new char[(int) file.length()];
+            fr.read(buff);
+            int temp = 0;
+            for (int y = 0; y < this.height; y++) {
+                for (int x = 0; x < this.width; x++) {
+                    map[y][x] = buff[temp++];
+                }
+            }
+        } catch(FileNotFoundException e){
+            e.printStackTrace();
+        }
+//        for (int y = 0; y < this.height; y++) {
+//            for (int x = 0; x < this.width; x++) {
+//                System.out.print(map[y][x]);
+//            }
+//            System.out.println();
+//        }
     }
 
     public void update() {
