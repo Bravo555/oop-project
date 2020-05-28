@@ -76,9 +76,6 @@ public class World {
             }
             System.out.println();
         }
-        for(Animal animal: this.animals){
-            animal.draw();
-        }
         Renderer.setCursorPosition(0, height + 1);
     }
 
