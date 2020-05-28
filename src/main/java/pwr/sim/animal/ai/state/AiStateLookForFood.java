@@ -3,7 +3,6 @@ package pwr.sim.animal.ai.state;
 import pwr.sim.Position2D;
 import pwr.sim.World;
 import pwr.sim.tile.ForestTile;
-import pwr.sim.tile.Tile;
 
 public class AiStateLookForFood implements IAiState {
     public AiStateLookForFood(Position2D position) {
