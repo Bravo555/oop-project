@@ -6,13 +6,14 @@ import pwr.sim.tile.ForestTile;
 import pwr.sim.tile.Tile;
 
 public class AiStateLookForFood implements IAiState {
+    public AiStateLookForFood(Position2D position) {
+        this.position = position;
+    }
 
     @Override
     public IAiState update() {
         if(World.getTile(position.x, position.y) instanceof ForestTile) {
             return new AiStateEatPlant();
-//            tile.flora -= 5;
-//            animal.hunger += 5;
         } else {
             if(!hasDestination) {
                 for (int y = position.y - 5; y < position.y + 5; y++) {
@@ -48,7 +49,7 @@ public class AiStateLookForFood implements IAiState {
             }
         }
     }
-    public Position2D position;
+    private Position2D position;
     private int distanceX = 0;
     private int distanceY = 0;
     private int minimum = 100000;

@@ -6,4 +6,5 @@ public abstract class Tile {
     }
 
     public abstract int getColor();
+    public int flora;
 }

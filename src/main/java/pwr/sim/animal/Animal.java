@@ -45,4 +45,5 @@ public abstract class Animal {
     private World world;
     private int health;
     private Position2D position;
+    public int hunger;
 }
