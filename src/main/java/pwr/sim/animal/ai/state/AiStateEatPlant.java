@@ -13,6 +13,7 @@ public class AiStateEatPlant implements IAiState {
     public IAiState update() {
         tile.flora -= 5;
         animal.hunger += 5;
+        return null;
     }
     private Tile tile;
     private Animal animal;
