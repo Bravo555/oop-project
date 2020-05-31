@@ -1,9 +1,11 @@
 package pwr.sim.animal.ai.state;
 
 import pwr.sim.Position2D;
+import pwr.sim.animal.Animal;
 
 public class AiStateRoam implements IAiState {
-    public AiStateRoam(Position2D position) {
+    public AiStateRoam(Animal animal, Position2D position) {
+        this.animal = animal;
         this.position = position;
     }
 
@@ -11,7 +13,7 @@ public class AiStateRoam implements IAiState {
     public IAiState update() {
         if(numTicks >= 6) {
             numTicks = 0;
-            return new AiStateSleep();
+            return new AiStateSleep(animal);
         }
 
         if(phase == 0) {
@@ -32,5 +34,6 @@ public class AiStateRoam implements IAiState {
 
     private int numTicks = 0;
 
+    private Animal animal;
     private Position2D position;
 }

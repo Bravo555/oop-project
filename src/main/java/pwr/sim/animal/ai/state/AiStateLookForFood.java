@@ -11,13 +11,13 @@ public class AiStateLookForFood implements IAiState {
 
     @Override
     public IAiState update() {
-        if(World.getTile(position.x, position.y) instanceof ForestTile) {
-            return new AiStateEatPlant();
+        if(world.getTile(position.x, position.y) instanceof ForestTile) {
+            return null;
         } else {
             if(!hasDestination) {
                 for (int y = position.y - 5; y < position.y + 5; y++) {
                     for (int x = position.x - 5; y < position.y + 5; x++) {
-                        if (World.getTile(x, y) instanceof ForestTile) {
+                        if (world.getTile(x, y) instanceof ForestTile) {
                             distanceX = x - position.x;
                             distanceY = y - position.y;
                             if (Math.abs(distanceX) + Math.abs(distanceY) < minimum) {
@@ -46,8 +46,10 @@ public class AiStateLookForFood implements IAiState {
                 }
                 if(minX == 0 && minY == 0) hasDestination = false;
             }
+            return null;
         }
     }
+    private World world;
     private Position2D position;
     private int distanceX = 0;
     private int distanceY = 0;

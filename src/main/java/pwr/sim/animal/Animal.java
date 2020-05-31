@@ -10,12 +10,14 @@ public abstract class Animal {
         this.aiBehaviour = aiBehaviour;
         this.position = position;
         this.aiBehaviour.position = position;
+        aiBehaviour.setAnimal(this);
     }
 
     public Animal(AiBehaviour aiBehaviour, Position2D position, World world) {
         this.aiBehaviour = aiBehaviour;
         this.position = position;
         this.aiBehaviour.position = this.position;
+        aiBehaviour.setAnimal(this);
         this.world = world;
     }
 
@@ -41,6 +43,10 @@ public abstract class Animal {
     }
 
     abstract public char getAnimalChar();
+
+    public World getWorld() {
+        return world;
+    }
 
     private World world;
     private int health;

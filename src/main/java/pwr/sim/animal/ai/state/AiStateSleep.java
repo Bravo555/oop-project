@@ -8,10 +8,11 @@ public class AiStateSleep implements IAiState {
     }
 
     @Override
-    public void update() {
+    public IAiState update() {
         animal.energy += 5;
         animal.hunger -= 3;
+        return null;
     }
 
-    private Animal animal;
+    private final Animal animal;
 }

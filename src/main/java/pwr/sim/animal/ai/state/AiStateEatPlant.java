@@ -4,8 +4,8 @@ import pwr.sim.animal.Animal;
 import pwr.sim.tile.Tile;
 
 public class AiStateEatPlant implements IAiState {
-    public AiStateEatPlant(Tile tile, Animal animal) {
-        this.tile = tile;
+    public AiStateEatPlant(Animal animal) {
+        this.tile = animal.getWorld().getTile(animal.getPosition().x, animal.getPosition().y);
         this.animal = animal;
     }
 
