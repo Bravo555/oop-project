@@ -53,7 +53,7 @@ public abstract class Animal {
         if(tile instanceof WaterTile) {
             return;
         }
-        nextPosition.setPosition(newx, newy);
+        nextPosition.move(newx, newy);
     }
 
     public void setAiBehaviour(AiBehaviour aiBehaviour) {
