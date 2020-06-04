@@ -102,6 +102,8 @@ public abstract class Animal {
         this.hunger += shift;
     }
 
+    public int getHealth() { return this.health; }
+
     public void changeHealth(int shift) {
         this.health += shift;
     }
