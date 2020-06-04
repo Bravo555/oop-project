@@ -20,8 +20,8 @@ public class AiStateEatCorpse implements IAiState {
         animal.changeHunger(25);
         return null;
     }
-    private int flesh;
-    private int hunger;
-    private Tile tile;
-    private Animal animal;
+    private final int flesh;
+    private final int hunger;
+    private final Tile tile;
+    private final Animal animal;
 }

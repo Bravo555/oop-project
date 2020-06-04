@@ -28,6 +28,19 @@ public class Position2D implements Cloneable {
         this.y = y;
     }
 
+    // probably dying in allocations but muh OOP
+    public int distanceSquared(Position2D other) {
+        Position2D delta = delta(other);
+        return delta.x * delta.x + delta.y * delta.y;
+    }
+
+    public Position2D delta(Position2D other) {
+        int deltaX = x - other.getX();
+        int deltaY = y - other.getY();
+
+        return new Position2D(deltaX, deltaY, world);
+    }
+
     @Override
     public String toString() {
         return String.format("{x: %d, y: %d}", x, y);

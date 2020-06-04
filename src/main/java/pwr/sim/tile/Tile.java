@@ -15,10 +15,6 @@ public abstract class Tile {
         this.flora += shift;
     }
 
-    public int getFlesh() {
-        return this.flesh;
-    }
-
     public void changeFlesh(int shift) {
         this.flesh += shift;
     }

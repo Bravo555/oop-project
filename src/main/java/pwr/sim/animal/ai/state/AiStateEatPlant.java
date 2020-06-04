@@ -18,8 +18,6 @@ public class AiStateEatPlant implements IAiState {
         return null;
     }
 
-    private int flora;
-    private int hunger;
-    private Tile tile;
-    private Animal animal;
+    private final Tile tile;
+    private final Animal animal;
 }

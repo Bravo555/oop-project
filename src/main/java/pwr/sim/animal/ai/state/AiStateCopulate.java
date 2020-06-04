@@ -1,17 +1,12 @@
 package pwr.sim.animal.ai.state;
 
-import pwr.sim.Position2D;
 import pwr.sim.World;
 import pwr.sim.animal.Animal;
 
-import java.util.List;
-
 public class AiStateCopulate implements IAiState {
     public AiStateCopulate(Animal animal) {
-        this.position = animal.getPosition();
         this.world = animal.getWorld();
         this.animal = animal;
-        this.animals = world.getAnimals();
     }
 
     @Override
@@ -20,36 +15,19 @@ public class AiStateCopulate implements IAiState {
         if(other != null) {
             return other;
         }
-        for (Animal mate: animals) {
-            if (mate.getClass().equals(animal.getClass()) && mate != animal) {
-                matePosition = mate.getPosition();
-                distanceX = matePosition.getX() - position.getX();
-                distanceY = matePosition.getY() - position.getY();
-                if (Math.abs(distanceX) + Math.abs(distanceY) < minimum) {
-                    minimum = Math.abs(distanceX) + Math.abs(distanceY);
-                    minX = distanceX;
-                    minY = distanceY;
+        if(mate == null) {
+            int minimum = 100000;
+            for (Animal mate: world.getAnimals()) {
+                if (mate.getClass().equals(animal.getClass())) {
+                    int currentDistance = animal.getPosition().distanceSquared(mate.getPosition());
+                    if (currentDistance < minimum) {
+                        minimum = currentDistance;
+                        this.mate = mate;
+                    }
                 }
             }
         }
-        if(minX < 0) {
-            position.move(-1,0);
-            minX++;
-        } else if(minX > 0) {
-            position.move(1,0);
-            minX--;
-        }
-        if(minY < 0) {
-            position.move(0,-1);
-            minY++;
-        } else if(minY > 0) {
-            position.move(0,1);
-            minY--;
-        }
-        if(minX == 0 && minY == 0) {
-//            world.breed(this.animal);
-            return new AiStatePop();
-        }
+        animal.approach(mate.getPosition());
         return null;
     }
 
@@ -63,14 +41,7 @@ public class AiStateCopulate implements IAiState {
         return null;
     }
 
-    private List<Animal> animals;
-    private Animal animal;
-    private World world;
-    private Position2D position;
-    private Position2D matePosition;
-    private int distanceX = 0;
-    private int distanceY = 0;
-    private int minimum = 100000;
-    private int minX = 0;
-    private int minY = 0;
+    private final World world;
+    private final Animal animal;
+    private Animal mate;
 }

@@ -19,8 +19,6 @@ public class AiBehaviour {
 
     public void update() {
         IAiState newState = currentState.peek().update();
-        animal.changeHunger(-3);
-        animal.changeEnergy(-3);
         if(newState != null) {
             // TODO this is bad. we should fix this
             if(newState instanceof AiStatePop) {
