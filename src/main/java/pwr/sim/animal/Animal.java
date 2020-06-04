@@ -100,9 +100,7 @@ public abstract class Animal {
 
 
     public void swap() {
-        Position2D temp = position;
-        position = nextPosition;
-        nextPosition = temp;
+        position.setPosition(nextPosition.getX(), nextPosition.getY());
     }
   
     public String getStringInfo() {
