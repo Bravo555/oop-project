@@ -13,11 +13,11 @@ public class AiStateEatCorpse implements IAiState {
 
     @Override
     public IAiState update() {
-        if(flesh < 5 || hunger == 100) {
+        if(flesh < 5 || hunger >= 100) {
             return new AiStatePop();
         }
         tile.changeFlesh(-5);
-        animal.changeHunger(5);
+        animal.changeHunger(25);
         return null;
     }
     private int flesh;
