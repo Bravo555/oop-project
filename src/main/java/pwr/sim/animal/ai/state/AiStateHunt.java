@@ -21,18 +21,16 @@ public class AiStateHunt implements IAiState {
         if (animal.getHunger() == 100) {
             return new AiStatePop();
         }
-        if(prey == null) {
-            for (Animal prey: animals) {
-                if (prey instanceof Antelope || prey instanceof Hippo) {
-                    preyPosition = prey.getPosition();
-                    distanceX = preyPosition.getX() - position.getX();
-                    distanceY = preyPosition.getY() - position.getY();
-                    if (Math.abs(distanceX) + Math.abs(distanceY) < minimum) {
-                        minimum = Math.abs(distanceX) + Math.abs(distanceY);
-                        minX = distanceX;
-                        minY = distanceY;
-                        this.prey = prey;
-                    }
+        for (Animal prey: animals) {
+            if ((prey instanceof Antelope || prey instanceof Hippo) && prey.getHealth() > 0) {
+                preyPosition = prey.getPosition();
+                distanceX = preyPosition.getX() - position.getX();
+                distanceY = preyPosition.getY() - position.getY();
+                if (Math.abs(distanceX) + Math.abs(distanceY) < minimum) {
+                    minimum = Math.abs(distanceX) + Math.abs(distanceY);
+                    minX = distanceX;
+                    minY = distanceY;
+                    this.prey = prey;
                 }
             }
         }

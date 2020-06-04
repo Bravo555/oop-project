@@ -13,6 +13,7 @@ public abstract class Animal {
     public void update() {
         if(health <= 0 || energy <= 0 || hunger <= 0) {
             //Erase animal object
+            world.getTile(position).changeFlesh(20);
         }
         aiBehaviour.update();
     }
@@ -118,7 +119,7 @@ public abstract class Animal {
 
     private AiBehaviour aiBehaviour;
     protected World world;
-    private int health;
+    private int health = 100;
     protected Position2D position;
     protected Position2D nextPosition;
     private int energy = 80;

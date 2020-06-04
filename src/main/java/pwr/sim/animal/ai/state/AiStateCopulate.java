@@ -20,18 +20,15 @@ public class AiStateCopulate implements IAiState {
         if(other != null) {
             return other;
         }
-        if(mate == null) {
-            for (Animal mate: animals) {
-                if (mate.getClass().equals(animal.getClass()) && mate != animal) {
-                    matePosition = mate.getPosition();
-                    distanceX = matePosition.getX() - position.getX();
-                    distanceY = matePosition.getY() - position.getY();
-                    if (Math.abs(distanceX) + Math.abs(distanceY) < minimum) {
-                        minimum = Math.abs(distanceX) + Math.abs(distanceY);
-                        minX = distanceX;
-                        minY = distanceY;
-                        this.mate = mate;
-                    }
+        for (Animal mate: animals) {
+            if (mate.getClass().equals(animal.getClass()) && mate != animal) {
+                matePosition = mate.getPosition();
+                distanceX = matePosition.getX() - position.getX();
+                distanceY = matePosition.getY() - position.getY();
+                if (Math.abs(distanceX) + Math.abs(distanceY) < minimum) {
+                    minimum = Math.abs(distanceX) + Math.abs(distanceY);
+                    minX = distanceX;
+                    minY = distanceY;
                 }
             }
         }
@@ -51,7 +48,6 @@ public class AiStateCopulate implements IAiState {
         }
         if(minX == 0 && minY == 0) {
 //            world.breed(this.animal);
-            mate = null;
             return new AiStatePop();
         }
         return null;
@@ -77,5 +73,4 @@ public class AiStateCopulate implements IAiState {
     private int minimum = 100000;
     private int minX = 0;
     private int minY = 0;
-    private Animal mate = null;
 }
