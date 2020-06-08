@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="193px" preserveAspectRatio="none" style="width:198px;height:193px;" version="1.1" viewBox="0 0 198 193" width="198px" zoomAndPan="magnify"><defs><filter height="300%" id="f45u5dn26n0ji" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[255d31fd1638d93d5cc60083b3595b03]
+class pwr.sim.tile.Tile--><a href="Tile.html" target="_top" title="Tile.html" xlink:actuate="onRequest" xlink:href="Tile.html" xlink:show="new" xlink:title="Tile.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f45u5dn26n0ji)" height="156.375" id="pwr.sim.tile.Tile" style="stroke: #A80036; stroke-width: 1.5;" width="150" x="18" y="7"/><ellipse cx="60" cy="25.9688" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M60.1094,21.3125 L58.9531,26.3906 L61.2813,26.3906 L60.1094,21.3125 Z M58.625,19.0781 L61.6094,19.0781 L64.9688,31.4688 L62.5156,31.4688 L61.75,28.4063 L58.4688,28.4063 L57.7188,31.4688 L55.2813,31.4688 L58.625,19.0781 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="24" x="97" y="24.9951">Tile</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="58" x="80" y="37.5791">pwr.sim.tile</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="19" x2="167" y1="44.9375" y2="44.9375"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="26" y="52.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="48" x="38" y="59.1479">flora: int</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="26" y="65.7422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="50" x="38" y="71.9526">flesh: int</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="19" x2="167" y1="78.5469" y2="78.5469"/><ellipse cx="29" cy="89.5469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="38" y="92.7573">draw(): void</text><ellipse cx="29" cy="102.3516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="78" x="38" y="105.562">getColor(): int</text><ellipse cx="29" cy="115.1563" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="38" y="118.3667">getFlora(): int</text><ellipse cx="29" cy="127.9609" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="122" x="38" y="131.1714">changeFlora(int): void</text><ellipse cx="29" cy="140.7656" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="38" y="143.9761">getFlesh(): int</text><ellipse cx="29" cy="153.5703" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="124" x="38" y="156.7808">changeFlesh(int): void</text></a><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="0" y="179.6572">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[b546aacdc1dd047a2cc8b77c501071cf]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    abstract class "<size:14>Tile\n<size:10>pwr.sim.tile" as pwr.sim.tile.Tile [[Tile.html]] {
+        -flora: int
+        -flesh: int
+        +draw(): void
+        {abstract} +getColor(): int
+        +getFlora(): int
+        +changeFlora(int): void
+        +getFlesh(): int
+        +changeFlesh(int): void
+    }
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-3ubuntu1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

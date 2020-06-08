@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="264px" preserveAspectRatio="none" style="width:228px;height:264px;" version="1.1" viewBox="0 0 228 264" width="228px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ljevui0w10lk" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3d3f19dbfee82aafb6dd503c34a7894c]
+class pwr.sim.animal.ai.state.AiStateCopulatePredator--><a href="AiStateCopulatePredator.html" target="_top" title="AiStateCopulatePredator.html" xlink:actuate="onRequest" xlink:href="AiStateCopulatePredator.html" xlink:show="new" xlink:title="AiStateCopulatePredator.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f1ljevui0w10lk)" height="105.1563" id="pwr.sim.animal.ai.state.AiStateCopulatePredator" style="stroke: #A80036; stroke-width: 1.5;" width="211" x="6" y="127"/><ellipse cx="25.5" cy="145.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M28.4688,151.6094 Q27.8906,151.9063 27.25,152.0469 Q26.6094,152.2031 25.9063,152.2031 Q23.4063,152.2031 22.0781,150.5625 Q20.7656,148.9063 20.7656,145.7813 Q20.7656,142.6563 22.0781,141 Q23.4063,139.3438 25.9063,139.3438 Q26.6094,139.3438 27.25,139.5 Q27.9063,139.6563 28.4688,139.9531 L28.4688,142.6719 Q27.8438,142.0938 27.25,141.8281 Q26.6563,141.5469 26.0313,141.5469 Q24.6875,141.5469 24,142.625 Q23.3125,143.6875 23.3125,145.7813 Q23.3125,147.875 24,148.9531 Q24.6875,150.0156 26.0313,150.0156 Q26.6563,150.0156 27.25,149.75 Q27.8438,149.4688 28.4688,148.8906 L28.4688,151.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="40.5" y="144.9951">AiStateCopulatePredator</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="112" x="69" y="157.5791">pwr.sim.animal.ai.state</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="216" y1="164.9375" y2="164.9375"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="172.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="26" y="179.1479">animal: Animal</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="185.7422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="26" y="191.9526">mate: Animal</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="216" y1="198.5469" y2="198.5469"/><ellipse cx="17" cy="209.5469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="185" x="26" y="212.7573">AiStateCopulatePredator(Animal)</text><ellipse cx="17" cy="222.3516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="26" y="225.562">update(): IAiState</text></a><!--MD5=[af772f8550f9215bd32b0d137f557a72]
+class pwr.sim.animal.ai.state.IAiState--><a href="IAiState.html" target="_top" title="IAiState.html" xlink:actuate="onRequest" xlink:href="IAiState.html" xlink:show="new" xlink:title="IAiState.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f1ljevui0w10lk)" height="58.7422" id="pwr.sim.animal.ai.state.IAiState" style="stroke: #A80036; stroke-width: 1.5;" width="148" x="37.5" y="8"/><ellipse cx="52.5" cy="26.9688" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M48.4219,22.7344 L48.4219,20.5781 L55.8125,20.5781 L55.8125,22.7344 L53.3438,22.7344 L53.3438,30.8125 L55.8125,30.8125 L55.8125,32.9688 L48.4219,32.9688 L48.4219,30.8125 L50.8906,30.8125 L50.8906,22.7344 L48.4219,22.7344 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="53" x="98" y="25.9951">IAiState</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="116" x="66.5" y="38.5791">pwr.sim.animal.ai.state</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="38.5" x2="184.5" y1="45.9375" y2="45.9375"/><ellipse cx="48.5" cy="56.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="98" x="57.5" y="60.1479">update(): IAiState</text></a><!--MD5=[22c7b84fcd375c51c4737a7cb7e2d453]
+reverse link pwr.sim.animal.ai.state.IAiState to pwr.sim.animal.ai.state.AiStateCopulatePredator--><path d="M111.5,87.38 C111.5,100.17 111.5,114.01 111.5,126.94 " fill="none" id="pwr.sim.animal.ai.state.IAiState&lt;-pwr.sim.animal.ai.state.AiStateCopulatePredator" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="104.5,87.17,111.5,67.17,118.5,87.17,104.5,87.17" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="24.5" y="251.2822">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[88ef9aef80a175e9d386d7a0ebacfc80]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>AiStateCopulatePredator\n<size:10>pwr.sim.animal.ai.state" as pwr.sim.animal.ai.state.AiStateCopulatePredator [[AiStateCopulatePredator.html]] {
+        -animal: Animal
+        -mate: Animal
+        +AiStateCopulatePredator(Animal)
+        +update(): IAiState
+    }
+
+    interface "<size:14>IAiState\n<size:10>pwr.sim.animal.ai.state" as pwr.sim.animal.ai.state.IAiState [[IAiState.html]] {
+        {abstract} +update(): IAiState
+    }
+
+    pwr.sim.animal.ai.state.IAiState <|.. pwr.sim.animal.ai.state.AiStateCopulatePredator
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-3ubuntu1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

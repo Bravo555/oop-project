@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="231px" preserveAspectRatio="none" style="width:198px;height:231px;" version="1.1" viewBox="0 0 198 231" width="198px" zoomAndPan="magnify"><defs><filter height="300%" id="f1swzpx5iylo8v" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0a2e2e5dcd3c4966e0ab4445a4d1754e]
+class pwr.sim.tile.WaterTile--><a href="WaterTile.html" target="_top" title="WaterTile.html" xlink:actuate="onRequest" xlink:href="WaterTile.html" xlink:show="new" xlink:title="WaterTile.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f1swzpx5iylo8v)" height="71.5469" id="pwr.sim.tile.WaterTile" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="35" y="127"/><ellipse cx="53.6" cy="145.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M56.5688,151.6094 Q55.9906,151.9063 55.35,152.0469 Q54.7094,152.2031 54.0063,152.2031 Q51.5063,152.2031 50.1781,150.5625 Q48.8656,148.9063 48.8656,145.7813 Q48.8656,142.6563 50.1781,141 Q51.5063,139.3438 54.0063,139.3438 Q54.7094,139.3438 55.35,139.5 Q56.0063,139.6563 56.5688,139.9531 L56.5688,142.6719 Q55.9438,142.0938 55.35,141.8281 Q54.7563,141.5469 54.1313,141.5469 Q52.7875,141.5469 52.1,142.625 Q51.4125,143.6875 51.4125,145.7813 Q51.4125,147.875 52.1,148.9531 Q52.7875,150.0156 54.1313,150.0156 Q54.7563,150.0156 55.35,149.75 Q55.9438,149.4688 56.5688,148.8906 L56.5688,151.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="68.4" y="144.9951">WaterTile</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="55" x="72.9" y="157.5791">pwr.sim.tile</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="36" x2="138" y1="164.9375" y2="164.9375"/><ellipse cx="46" cy="175.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="55" y="179.1479">draw(): void</text><ellipse cx="46" cy="188.7422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="55" y="191.9526">getColor(): int</text></a><!--MD5=[255d31fd1638d93d5cc60083b3595b03]
+class pwr.sim.tile.Tile--><a href="Tile.html" target="_top" title="Tile.html" xlink:actuate="onRequest" xlink:href="Tile.html" xlink:show="new" xlink:title="Tile.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f1swzpx5iylo8v)" height="58.7422" id="pwr.sim.tile.Tile" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="35" y="8"/><ellipse cx="56.3" cy="26.9688" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M56.4094,22.3125 L55.2531,27.3906 L57.5813,27.3906 L56.4094,22.3125 Z M54.925,20.0781 L57.9094,20.0781 L61.2688,32.4688 L58.8156,32.4688 L58.05,29.4063 L54.7688,29.4063 L54.0188,32.4688 L51.5813,32.4688 L54.925,20.0781 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="24" x="88.7" y="25.9951">Tile</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="58" x="71.7" y="38.5791">pwr.sim.tile</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="36" x2="138" y1="45.9375" y2="45.9375"/><ellipse cx="46" cy="56.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="78" x="55" y="60.1479">getColor(): int</text></a><!--MD5=[d91a11ff80edeb6680de7c21f7862340]
+reverse link pwr.sim.tile.Tile to pwr.sim.tile.WaterTile--><path d="M87,87.46 C87,100.64 87,114.64 87,126.9 " fill="none" id="pwr.sim.tile.Tile&lt;-pwr.sim.tile.WaterTile" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="80,87.14,87,67.14,94,87.14,80,87.14" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="0" y="218.2822">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[9a004b589e8ef67582164c76ad432bba]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>WaterTile\n<size:10>pwr.sim.tile" as pwr.sim.tile.WaterTile [[WaterTile.html]] {
+        +draw(): void
+        +getColor(): int
+    }
+
+    abstract class "<size:14>Tile\n<size:10>pwr.sim.tile" as pwr.sim.tile.Tile [[Tile.html]] {
+        {abstract} +getColor(): int
+    }
+
+    pwr.sim.tile.Tile <|- - pwr.sim.tile.WaterTile
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-3ubuntu1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

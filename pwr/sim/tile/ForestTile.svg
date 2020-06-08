@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="231px" preserveAspectRatio="none" style="width:198px;height:231px;" version="1.1" viewBox="0 0 198 231" width="198px" zoomAndPan="magnify"><defs><filter height="300%" id="fg0o92jo31w13" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[cf4041ff6bf4b05b06bf89537f092f10]
+class pwr.sim.tile.ForestTile--><a href="ForestTile.html" target="_top" title="ForestTile.html" xlink:actuate="onRequest" xlink:href="ForestTile.html" xlink:show="new" xlink:title="ForestTile.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#fg0o92jo31w13)" height="71.5469" id="pwr.sim.tile.ForestTile" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="35" y="127"/><ellipse cx="51.8" cy="145.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M54.7688,151.6094 Q54.1906,151.9063 53.55,152.0469 Q52.9094,152.2031 52.2063,152.2031 Q49.7063,152.2031 48.3781,150.5625 Q47.0656,148.9063 47.0656,145.7813 Q47.0656,142.6563 48.3781,141 Q49.7063,139.3438 52.2063,139.3438 Q52.9094,139.3438 53.55,139.5 Q54.2063,139.6563 54.7688,139.9531 L54.7688,142.6719 Q54.1438,142.0938 53.55,141.8281 Q52.9563,141.5469 52.3313,141.5469 Q50.9875,141.5469 50.3,142.625 Q49.6125,143.6875 49.6125,145.7813 Q49.6125,147.875 50.3,148.9531 Q50.9875,150.0156 52.3313,150.0156 Q52.9563,150.0156 53.55,149.75 Q54.1438,149.4688 54.7688,148.8906 L54.7688,151.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="66.2" y="144.9951">ForestTile</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="55" x="72.7" y="157.5791">pwr.sim.tile</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="36" x2="138" y1="164.9375" y2="164.9375"/><ellipse cx="46" cy="175.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="55" y="179.1479">draw(): void</text><ellipse cx="46" cy="188.7422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="55" y="191.9526">getColor(): int</text></a><!--MD5=[255d31fd1638d93d5cc60083b3595b03]
+class pwr.sim.tile.Tile--><a href="Tile.html" target="_top" title="Tile.html" xlink:actuate="onRequest" xlink:href="Tile.html" xlink:show="new" xlink:title="Tile.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#fg0o92jo31w13)" height="58.7422" id="pwr.sim.tile.Tile" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="35" y="8"/><ellipse cx="56.3" cy="26.9688" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M56.4094,22.3125 L55.2531,27.3906 L57.5813,27.3906 L56.4094,22.3125 Z M54.925,20.0781 L57.9094,20.0781 L61.2688,32.4688 L58.8156,32.4688 L58.05,29.4063 L54.7688,29.4063 L54.0188,32.4688 L51.5813,32.4688 L54.925,20.0781 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="24" x="88.7" y="25.9951">Tile</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="58" x="71.7" y="38.5791">pwr.sim.tile</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="36" x2="138" y1="45.9375" y2="45.9375"/><ellipse cx="46" cy="56.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="78" x="55" y="60.1479">getColor(): int</text></a><!--MD5=[53dd2a6f0cf712c8ba6353c350253f78]
+reverse link pwr.sim.tile.Tile to pwr.sim.tile.ForestTile--><path d="M87,87.46 C87,100.64 87,114.64 87,126.9 " fill="none" id="pwr.sim.tile.Tile&lt;-pwr.sim.tile.ForestTile" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="80,87.14,87,67.14,94,87.14,80,87.14" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="0" y="218.2822">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[8cfb8889d2f0dde99a268f81ffe992dd]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>ForestTile\n<size:10>pwr.sim.tile" as pwr.sim.tile.ForestTile [[ForestTile.html]] {
+        +draw(): void
+        +getColor(): int
+    }
+
+    abstract class "<size:14>Tile\n<size:10>pwr.sim.tile" as pwr.sim.tile.Tile [[Tile.html]] {
+        {abstract} +getColor(): int
+    }
+
+    pwr.sim.tile.Tile <|- - pwr.sim.tile.ForestTile
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-3ubuntu1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

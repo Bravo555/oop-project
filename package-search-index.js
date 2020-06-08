@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"pwr.sim"},{"l":"pwr.sim.animal"},{"l":"pwr.sim.animal.ai"},{"l":"pwr.sim.animal.ai.state"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"pwr.sim"},{"l":"pwr.sim.animal"},{"l":"pwr.sim.animal.ai"},{"l":"pwr.sim.animal.ai.state"},{"l":"pwr.sim.renderer"},{"l":"pwr.sim.tile"}]

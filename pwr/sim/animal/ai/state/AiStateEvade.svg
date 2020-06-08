@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="264px" preserveAspectRatio="none" style="width:213px;height:264px;" version="1.1" viewBox="0 0 213 264" width="213px" zoomAndPan="magnify"><defs><filter height="300%" id="fnqcf3x9a5fj3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8bcb64160ca150be0df12a81ede32a6a]
+class pwr.sim.animal.ai.state.AiStateEvade--><a href="AiStateEvade.html" target="_top" title="AiStateEvade.html" xlink:actuate="onRequest" xlink:href="AiStateEvade.html" xlink:show="new" xlink:title="AiStateEvade.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#fnqcf3x9a5fj3)" height="105.1563" id="pwr.sim.animal.ai.state.AiStateEvade" style="stroke: #A80036; stroke-width: 1.5;" width="192" x="6" y="127"/><ellipse cx="42.6" cy="145.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M45.5688,151.6094 Q44.9906,151.9063 44.35,152.0469 Q43.7094,152.2031 43.0063,152.2031 Q40.5063,152.2031 39.1781,150.5625 Q37.8656,148.9063 37.8656,145.7813 Q37.8656,142.6563 39.1781,141 Q40.5063,139.3438 43.0063,139.3438 Q43.7094,139.3438 44.35,139.5 Q45.0063,139.6563 45.5688,139.9531 L45.5688,142.6719 Q44.9438,142.0938 44.35,141.8281 Q43.7563,141.5469 43.1313,141.5469 Q41.7875,141.5469 41.1,142.625 Q40.4125,143.6875 40.4125,145.7813 Q40.4125,147.875 41.1,148.9531 Q41.7875,150.0156 43.1313,150.0156 Q43.7563,150.0156 44.35,149.75 Q44.9438,149.4688 45.5688,148.8906 L45.5688,151.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="72.4" y="144.9951">AiStateEvade</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="112" x="61.4" y="157.5791">pwr.sim.animal.ai.state</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="197" y1="164.9375" y2="164.9375"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="172.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="26" y="179.1479">animal: Animal</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="185.7422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="95" x="26" y="191.9526">predator: Animal</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="197" y1="198.5469" y2="198.5469"/><ellipse cx="17" cy="209.5469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="166" x="26" y="212.7573">AiStateEvade(Animal, Animal)</text><ellipse cx="17" cy="222.3516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="26" y="225.562">update(): IAiState</text></a><!--MD5=[af772f8550f9215bd32b0d137f557a72]
+class pwr.sim.animal.ai.state.IAiState--><a href="IAiState.html" target="_top" title="IAiState.html" xlink:actuate="onRequest" xlink:href="IAiState.html" xlink:show="new" xlink:title="IAiState.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#fnqcf3x9a5fj3)" height="58.7422" id="pwr.sim.animal.ai.state.IAiState" style="stroke: #A80036; stroke-width: 1.5;" width="148" x="28" y="8"/><ellipse cx="43" cy="26.9688" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M38.9219,22.7344 L38.9219,20.5781 L46.3125,20.5781 L46.3125,22.7344 L43.8438,22.7344 L43.8438,30.8125 L46.3125,30.8125 L46.3125,32.9688 L38.9219,32.9688 L38.9219,30.8125 L41.3906,30.8125 L41.3906,22.7344 L38.9219,22.7344 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="53" x="88.5" y="25.9951">IAiState</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="116" x="57" y="38.5791">pwr.sim.animal.ai.state</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="29" x2="175" y1="45.9375" y2="45.9375"/><ellipse cx="39" cy="56.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="98" x="48" y="60.1479">update(): IAiState</text></a><!--MD5=[e5367ba7475febf9c82c4f6453c3ad44]
+reverse link pwr.sim.animal.ai.state.IAiState to pwr.sim.animal.ai.state.AiStateEvade--><path d="M102,87.38 C102,100.17 102,114.01 102,126.94 " fill="none" id="pwr.sim.animal.ai.state.IAiState&lt;-pwr.sim.animal.ai.state.AiStateEvade" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="95,87.17,102,67.17,109,87.17,95,87.17" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="15" y="251.2822">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[8761ef44444808e1ddcb9491875a1b4f]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>AiStateEvade\n<size:10>pwr.sim.animal.ai.state" as pwr.sim.animal.ai.state.AiStateEvade [[AiStateEvade.html]] {
+        -animal: Animal
+        -predator: Animal
+        +AiStateEvade(Animal, Animal)
+        +update(): IAiState
+    }
+
+    interface "<size:14>IAiState\n<size:10>pwr.sim.animal.ai.state" as pwr.sim.animal.ai.state.IAiState [[IAiState.html]] {
+        {abstract} +update(): IAiState
+    }
+
+    pwr.sim.animal.ai.state.IAiState <|.. pwr.sim.animal.ai.state.AiStateEvade
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-3ubuntu1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

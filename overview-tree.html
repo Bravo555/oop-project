@@ -99,7 +99,9 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="pwr/sim/package-tree.html">pwr.sim</a>, </li>
 <li><a href="pwr/sim/animal/package-tree.html">pwr.sim.animal</a>, </li>
 <li><a href="pwr/sim/animal/ai/package-tree.html">pwr.sim.animal.ai</a>, </li>
-<li><a href="pwr/sim/animal/ai/state/package-tree.html">pwr.sim.animal.ai.state</a></li>
+<li><a href="pwr/sim/animal/ai/state/package-tree.html">pwr.sim.animal.ai.state</a>, </li>
+<li><a href="pwr/sim/renderer/package-tree.html">pwr.sim.renderer</a>, </li>
+<li><a href="pwr/sim/tile/package-tree.html">pwr.sim.tile</a></li>
 </ul>
 </div>
 <div class="contentContainer">
@@ -108,17 +110,21 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <ul>
 <li class="circle">java.lang.Object
 <ul>
-<li class="circle">pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/AiBehaviourAntelope.html" title="class in pwr.sim.animal.ai"><span class="typeNameLink">AiBehaviourAntelope</span></a> (implements pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/IAiBehaviour.html" title="interface in pwr.sim.animal.ai">IAiBehaviour</a>)</li>
-<li class="circle">pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/AiBehaviourCrocodile.html" title="class in pwr.sim.animal.ai"><span class="typeNameLink">AiBehaviourCrocodile</span></a> (implements pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/IAiBehaviour.html" title="interface in pwr.sim.animal.ai">IAiBehaviour</a>)</li>
-<li class="circle">pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/AiBehaviourHippo.html" title="class in pwr.sim.animal.ai"><span class="typeNameLink">AiBehaviourHippo</span></a> (implements pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/IAiBehaviour.html" title="interface in pwr.sim.animal.ai">IAiBehaviour</a>)</li>
-<li class="circle">pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/AiBehaviourLion.html" title="class in pwr.sim.animal.ai"><span class="typeNameLink">AiBehaviourLion</span></a> (implements pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/IAiBehaviour.html" title="interface in pwr.sim.animal.ai">IAiBehaviour</a>)</li>
-<li class="circle">pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/AiBehaviourWolf.html" title="class in pwr.sim.animal.ai"><span class="typeNameLink">AiBehaviourWolf</span></a> (implements pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/IAiBehaviour.html" title="interface in pwr.sim.animal.ai">IAiBehaviour</a>)</li>
+<li class="circle">pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/AiBehaviour.html" title="class in pwr.sim.animal.ai"><span class="typeNameLink">AiBehaviour</span></a>
+<ul>
+<li class="circle">pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/AiBehaviourHerbivore.html" title="class in pwr.sim.animal.ai"><span class="typeNameLink">AiBehaviourHerbivore</span></a></li>
+<li class="circle">pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/AiBehaviourPredator.html" title="class in pwr.sim.animal.ai"><span class="typeNameLink">AiBehaviourPredator</span></a></li>
+</ul>
+</li>
 <li class="circle">pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/AiStateCopulate.html" title="class in pwr.sim.animal.ai.state"><span class="typeNameLink">AiStateCopulate</span></a> (implements pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/IAiState.html" title="interface in pwr.sim.animal.ai.state">IAiState</a>)</li>
+<li class="circle">pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/AiStateCopulatePredator.html" title="class in pwr.sim.animal.ai.state"><span class="typeNameLink">AiStateCopulatePredator</span></a> (implements pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/IAiState.html" title="interface in pwr.sim.animal.ai.state">IAiState</a>)</li>
 <li class="circle">pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/AiStateEatCorpse.html" title="class in pwr.sim.animal.ai.state"><span class="typeNameLink">AiStateEatCorpse</span></a> (implements pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/IAiState.html" title="interface in pwr.sim.animal.ai.state">IAiState</a>)</li>
 <li class="circle">pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/AiStateEatPlant.html" title="class in pwr.sim.animal.ai.state"><span class="typeNameLink">AiStateEatPlant</span></a> (implements pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/IAiState.html" title="interface in pwr.sim.animal.ai.state">IAiState</a>)</li>
+<li class="circle">pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/AiStateEvade.html" title="class in pwr.sim.animal.ai.state"><span class="typeNameLink">AiStateEvade</span></a> (implements pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/IAiState.html" title="interface in pwr.sim.animal.ai.state">IAiState</a>)</li>
 <li class="circle">pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/AiStateHunt.html" title="class in pwr.sim.animal.ai.state"><span class="typeNameLink">AiStateHunt</span></a> (implements pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/IAiState.html" title="interface in pwr.sim.animal.ai.state">IAiState</a>)</li>
 <li class="circle">pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/AiStateLookForFood.html" title="class in pwr.sim.animal.ai.state"><span class="typeNameLink">AiStateLookForFood</span></a> (implements pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/IAiState.html" title="interface in pwr.sim.animal.ai.state">IAiState</a>)</li>
 <li class="circle">pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/AiStateSleep.html" title="class in pwr.sim.animal.ai.state"><span class="typeNameLink">AiStateSleep</span></a> (implements pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/IAiState.html" title="interface in pwr.sim.animal.ai.state">IAiState</a>)</li>
+<li class="circle">pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/AiStateSleepPredator.html" title="class in pwr.sim.animal.ai.state"><span class="typeNameLink">AiStateSleepPredator</span></a> (implements pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/IAiState.html" title="interface in pwr.sim.animal.ai.state">IAiState</a>)</li>
 <li class="circle">pwr.sim.animal.<a href="pwr/sim/animal/Animal.html" title="class in pwr.sim.animal"><span class="typeNameLink">Animal</span></a>
 <ul>
 <li class="circle">pwr.sim.animal.<a href="pwr/sim/animal/Antelope.html" title="class in pwr.sim.animal"><span class="typeNameLink">Antelope</span></a></li>
@@ -128,8 +134,17 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="circle">pwr.sim.animal.<a href="pwr/sim/animal/Wolf.html" title="class in pwr.sim.animal"><span class="typeNameLink">Wolf</span></a></li>
 </ul>
 </li>
+<li class="circle">pwr.sim.animal.<a href="pwr/sim/animal/AnimalFactory.html" title="class in pwr.sim.animal"><span class="typeNameLink">AnimalFactory</span></a></li>
 <li class="circle">pwr.sim.<a href="pwr/sim/App.html" title="class in pwr.sim"><span class="typeNameLink">App</span></a></li>
-<li class="circle">pwr.sim.<a href="pwr/sim/Tile.html" title="class in pwr.sim"><span class="typeNameLink">Tile</span></a></li>
+<li class="circle">pwr.sim.<a href="pwr/sim/Position2D.html" title="class in pwr.sim"><span class="typeNameLink">Position2D</span></a> (implements java.lang.Cloneable)</li>
+<li class="circle">pwr.sim.renderer.<a href="pwr/sim/renderer/Renderer.html" title="class in pwr.sim.renderer"><span class="typeNameLink">Renderer</span></a></li>
+<li class="circle">pwr.sim.tile.<a href="pwr/sim/tile/Tile.html" title="class in pwr.sim.tile"><span class="typeNameLink">Tile</span></a>
+<ul>
+<li class="circle">pwr.sim.tile.<a href="pwr/sim/tile/DesertTile.html" title="class in pwr.sim.tile"><span class="typeNameLink">DesertTile</span></a></li>
+<li class="circle">pwr.sim.tile.<a href="pwr/sim/tile/ForestTile.html" title="class in pwr.sim.tile"><span class="typeNameLink">ForestTile</span></a></li>
+<li class="circle">pwr.sim.tile.<a href="pwr/sim/tile/WaterTile.html" title="class in pwr.sim.tile"><span class="typeNameLink">WaterTile</span></a></li>
+</ul>
+</li>
 <li class="circle">pwr.sim.<a href="pwr/sim/World.html" title="class in pwr.sim"><span class="typeNameLink">World</span></a></li>
 </ul>
 </li>
@@ -138,8 +153,21 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <section role="region">
 <h2 title="Interface Hierarchy">Interface Hierarchy</h2>
 <ul>
-<li class="circle">pwr.sim.animal.ai.<a href="pwr/sim/animal/ai/IAiBehaviour.html" title="interface in pwr.sim.animal.ai"><span class="typeNameLink">IAiBehaviour</span></a></li>
 <li class="circle">pwr.sim.animal.ai.state.<a href="pwr/sim/animal/ai/state/IAiState.html" title="interface in pwr.sim.animal.ai.state"><span class="typeNameLink">IAiState</span></a></li>
+</ul>
+</section>
+<section role="region">
+<h2 title="Enum Hierarchy">Enum Hierarchy</h2>
+<ul>
+<li class="circle">java.lang.Object
+<ul>
+<li class="circle">java.lang.Enum&lt;E&gt; (implements java.lang.Comparable&lt;T&gt;, java.io.Serializable)
+<ul>
+<li class="circle">pwr.sim.animal.<a href="pwr/sim/animal/AnimalType.html" title="enum in pwr.sim.animal"><span class="typeNameLink">AnimalType</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </section>
 </div>
