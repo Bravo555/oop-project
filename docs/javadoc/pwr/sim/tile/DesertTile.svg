@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="244px" preserveAspectRatio="none" style="width:198px;height:244px;" version="1.1" viewBox="0 0 198 244" width="198px" zoomAndPan="magnify"><defs><filter height="300%" id="faa1o87aqf9u6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e4e8e6ac90e2a09c873f0220781c3de9]
+class pwr.sim.tile.DesertTile--><a href="DesertTile.html" target="_top" title="DesertTile.html" xlink:actuate="onRequest" xlink:href="DesertTile.html" xlink:show="new" xlink:title="DesertTile.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#faa1o87aqf9u6)" height="71.5469" id="pwr.sim.tile.DesertTile" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="35" y="140"/><ellipse cx="50.45" cy="158.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M53.4188,164.6094 Q52.8406,164.9063 52.2,165.0469 Q51.5594,165.2031 50.8563,165.2031 Q48.3563,165.2031 47.0281,163.5625 Q45.7156,161.9063 45.7156,158.7813 Q45.7156,155.6563 47.0281,154 Q48.3563,152.3438 50.8563,152.3438 Q51.5594,152.3438 52.2,152.5 Q52.8563,152.6563 53.4188,152.9531 L53.4188,155.6719 Q52.7938,155.0938 52.2,154.8281 Q51.6063,154.5469 50.9813,154.5469 Q49.6375,154.5469 48.95,155.625 Q48.2625,156.6875 48.2625,158.7813 Q48.2625,160.875 48.95,161.9531 Q49.6375,163.0156 50.9813,163.0156 Q51.6063,163.0156 52.2,162.75 Q52.7938,162.4688 53.4188,161.8906 L53.4188,164.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="64.55" y="157.9951">DesertTile</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="55" x="72.55" y="170.5791">pwr.sim.tile</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="36" x2="138" y1="177.9375" y2="177.9375"/><ellipse cx="46" cy="188.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="55" y="192.1479">draw(): void</text><ellipse cx="46" cy="201.7422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="55" y="204.9526">getColor(): int</text></a><!--MD5=[255d31fd1638d93d5cc60083b3595b03]
+class pwr.sim.tile.Tile--><a href="Tile.html" target="_top" title="Tile.html" xlink:actuate="onRequest" xlink:href="Tile.html" xlink:show="new" xlink:title="Tile.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#faa1o87aqf9u6)" height="71.5469" id="pwr.sim.tile.Tile" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="35" y="8"/><ellipse cx="56.3" cy="26.9688" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M56.4094,22.3125 L55.2531,27.3906 L57.5813,27.3906 L56.4094,22.3125 Z M54.925,20.0781 L57.9094,20.0781 L61.2688,32.4688 L58.8156,32.4688 L58.05,29.4063 L54.7688,29.4063 L54.0188,32.4688 L51.5813,32.4688 L54.925,20.0781 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="24" x="88.7" y="25.9951">Tile</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="58" x="71.7" y="38.5791">pwr.sim.tile</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="36" x2="138" y1="45.9375" y2="45.9375"/><ellipse cx="46" cy="56.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="55" y="60.1479">draw(): void</text><ellipse cx="46" cy="69.7422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="78" x="55" y="72.9526">getColor(): int</text></a><!--MD5=[517225b6bb62042e671840763edf8f71]
+reverse link pwr.sim.tile.Tile to pwr.sim.tile.DesertTile--><path d="M87,100.38 C87,113.74 87,127.65 87,139.79 " fill="none" id="pwr.sim.tile.Tile&lt;-pwr.sim.tile.DesertTile" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="80,100.18,87,80.18,94,100.18,80,100.18" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="0" y="231.2822">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[8c7040b24b667eceae9fc141f29ae698]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>DesertTile\n<size:10>pwr.sim.tile" as pwr.sim.tile.DesertTile [[DesertTile.html]] {
+        +draw(): void
+        +getColor(): int
+    }
+
+    abstract class "<size:14>Tile\n<size:10>pwr.sim.tile" as pwr.sim.tile.Tile [[Tile.html]] {
+        {abstract} +draw(): void
+        {abstract} +getColor(): int
+    }
+
+    pwr.sim.tile.Tile <|- - pwr.sim.tile.DesertTile
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-3ubuntu1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

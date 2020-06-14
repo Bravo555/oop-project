@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="243px" preserveAspectRatio="none" style="width:204px;height:243px;" version="1.1" viewBox="0 0 204 243" width="204px" zoomAndPan="magnify"><defs><filter height="300%" id="f1m92voqrxl41j" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[b1b8f6298c44d0173040989d99b205cc]
+class pwr.sim.animal.Crocodile--><a href="Crocodile.html" target="_top" title="Crocodile.html" xlink:actuate="onRequest" xlink:href="Crocodile.html" xlink:show="new" xlink:title="Crocodile.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f1m92voqrxl41j)" height="84.3516" id="pwr.sim.animal.Crocodile" style="stroke: #A80036; stroke-width: 1.5;" width="175" x="6" y="127"/><ellipse cx="52.75" cy="145.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M55.7188,151.6094 Q55.1406,151.9063 54.5,152.0469 Q53.8594,152.2031 53.1563,152.2031 Q50.6563,152.2031 49.3281,150.5625 Q48.0156,148.9063 48.0156,145.7813 Q48.0156,142.6563 49.3281,141 Q50.6563,139.3438 53.1563,139.3438 Q53.8594,139.3438 54.5,139.5 Q55.1563,139.6563 55.7188,139.9531 L55.7188,142.6719 Q55.0938,142.0938 54.5,141.8281 Q53.9063,141.5469 53.2813,141.5469 Q51.9375,141.5469 51.25,142.625 Q50.5625,143.6875 50.5625,145.7813 Q50.5625,147.875 51.25,148.9531 Q51.9375,150.0156 53.2813,150.0156 Q53.9063,150.0156 54.5,149.75 Q55.0938,149.4688 55.7188,148.8906 L55.7188,151.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="77.25" y="144.9951">Crocodile</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="73" x="73.25" y="157.5791">pwr.sim.animal</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="180" y1="164.9375" y2="164.9375"/><ellipse cx="17" cy="175.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="149" x="26" y="179.1479">canPassTile(Tile): boolean</text><ellipse cx="17" cy="188.7422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="124" x="26" y="191.9526">getAnimalChar(): char</text><ellipse cx="17" cy="201.5469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="26" y="204.7573">getStrength(): int</text></a><!--MD5=[c3d732d9f16640c78ebd86f186b6dc1a]
+class pwr.sim.animal.Animal--><a href="Animal.html" target="_top" title="Animal.html" xlink:actuate="onRequest" xlink:href="Animal.html" xlink:show="new" xlink:title="Animal.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#f1m92voqrxl41j)" height="58.7422" id="pwr.sim.animal.Animal" style="stroke: #A80036; stroke-width: 1.5;" width="151" x="18" y="8"/><ellipse cx="52.35" cy="26.9688" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M52.4594,22.3125 L51.3031,27.3906 L53.6313,27.3906 L52.4594,22.3125 Z M50.975,20.0781 L53.9594,20.0781 L57.3188,32.4688 L54.8656,32.4688 L54.1,29.4063 L50.8188,29.4063 L50.0688,32.4688 L47.6313,32.4688 L50.975,20.0781 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="46" x="85.65" y="25.9951">Animal</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="76" x="70.65" y="38.5791">pwr.sim.animal</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="19" x2="168" y1="45.9375" y2="45.9375"/><ellipse cx="29" cy="56.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="125" x="38" y="60.1479">getAnimalChar(): char</text></a><!--MD5=[eb525c31fe53d0a7c54753579ebbab9c]
+reverse link pwr.sim.animal.Animal to pwr.sim.animal.Crocodile--><path d="M93.5,87.63 C93.5,100.47 93.5,114.17 93.5,126.56 " fill="none" id="pwr.sim.animal.Animal&lt;-pwr.sim.animal.Crocodile" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="86.5,87.24,93.5,67.24,100.5,87.24,86.5,87.24" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="6.5" y="230.2822">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[4a55ed4646e7160262248f4e3ba4304f]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>Crocodile\n<size:10>pwr.sim.animal" as pwr.sim.animal.Crocodile [[Crocodile.html]] {
+        +canPassTile(Tile): boolean
+        +getAnimalChar(): char
+        +getStrength(): int
+    }
+
+    abstract class "<size:14>Animal\n<size:10>pwr.sim.animal" as pwr.sim.animal.Animal [[Animal.html]] {
+        {abstract} +getAnimalChar(): char
+    }
+
+    pwr.sim.animal.Animal <|- - pwr.sim.animal.Crocodile
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-3ubuntu1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

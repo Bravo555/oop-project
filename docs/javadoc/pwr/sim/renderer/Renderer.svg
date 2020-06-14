@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="205px" preserveAspectRatio="none" style="width:264px;height:205px;" version="1.1" viewBox="0 0 264 205" width="264px" zoomAndPan="magnify"><defs><filter height="300%" id="fkoy94iohkrq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ac1824f18913c130ef753fba7029e523]
+class pwr.sim.renderer.Renderer--><a href="Renderer.html" target="_top" title="Renderer.html" xlink:actuate="onRequest" xlink:href="Renderer.html" xlink:show="new" xlink:title="Renderer.html" xlink:type="simple"><rect fill="#FEFECE" filter="url(#fkoy94iohkrq)" height="169.1797" id="pwr.sim.renderer.Renderer" style="stroke: #A80036; stroke-width: 1.5;" width="246" x="7" y="7"/><ellipse cx="84.25" cy="25.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M87.2188,31.6094 Q86.6406,31.9063 86,32.0469 Q85.3594,32.2031 84.6563,32.2031 Q82.1563,32.2031 80.8281,30.5625 Q79.5156,28.9063 79.5156,25.7813 Q79.5156,22.6563 80.8281,21 Q82.1563,19.3438 84.6563,19.3438 Q85.3594,19.3438 86,19.5 Q86.6563,19.6563 87.2188,19.9531 L87.2188,22.6719 Q86.5938,22.0938 86,21.8281 Q85.4063,21.5469 84.7813,21.5469 Q83.4375,21.5469 82.75,22.625 Q82.0625,23.6875 82.0625,25.7813 Q82.0625,27.875 82.75,28.9531 Q83.4375,30.0156 84.7813,30.0156 Q85.4063,30.0156 86,29.75 Q86.5938,29.4688 87.2188,28.8906 L87.2188,31.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="113.75" y="24.9951">Renderer</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="83" x="104.75" y="37.5791">pwr.sim.renderer</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="252" y1="44.9375" y2="44.9375"/><polygon fill="none" points="18,51.9375,14,57.9375,22,57.9375" style="stroke: #1963A0; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="71" x="27" y="59.1479">cellWidth: int</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="252" y1="65.7422" y2="65.7422"/><ellipse cx="18" cy="76.7422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="109" x="27" y="79.9526">drawUi(World): void</text><ellipse cx="18" cy="89.5469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="177" x="27" y="92.7573">setCursorPosition(int, int): void</text><ellipse cx="18" cy="102.3516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="191" x="27" y="105.562">setCursorToCell(Position2D): void</text><ellipse cx="18" cy="115.1563" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="220" x="27" y="118.3667">drawColouredText(String, int, int): void</text><ellipse cx="18" cy="127.9609" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="214" x="27" y="131.1714">drawColouredChar(char, int, int): void</text><ellipse cx="18" cy="140.7656" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="203" x="27" y="143.9761">enableAlternateScreenBuffer(): void</text><ellipse cx="18" cy="153.5703" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="206" x="27" y="156.7808">disableAlternateScreenBuffer(): void</text><ellipse cx="18" cy="166.375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="107" x="27" y="169.5854">clearScreen(): void</text></a><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="37" y="192.4619">UMLDoclet 2.0.9, PlantUML 1.2020.08</text><!--MD5=[f9aa409358eeae95804d56dda5254997]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>Renderer\n<size:10>pwr.sim.renderer" as pwr.sim.renderer.Renderer [[Renderer.html]] {
+        {static} ~cellWidth: int
+        {static} +drawUi(World): void
+        {static} +setCursorPosition(int, int): void
+        {static} +setCursorToCell(Position2D): void
+        {static} +drawColouredText(String, int, int): void
+        {static} +drawColouredChar(char, int, int): void
+        {static} +enableAlternateScreenBuffer(): void
+        {static} +disableAlternateScreenBuffer(): void
+        {static} +clearScreen(): void
+    }
+
+    center footer UMLDoclet 2.0.9, PlantUML 1.2020.08
+@enduml
+
+PlantUML version 1.2020.08(Sun Apr 26 16:08:22 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-3ubuntu1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>
